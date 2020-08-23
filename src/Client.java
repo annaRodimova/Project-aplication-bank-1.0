@@ -1,5 +1,9 @@
 import java.util.*;
 public class Client {
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+
     public String getName() {
         return name;
     }
@@ -38,17 +42,6 @@ public class Client {
        this.balance = balance;
        this.password = password;
    }
-   public void replenish () {
 
-   }
-   public void consumption () {
-
-   }
-   public void request_balance () {
-       System.out.println(balance);
-   }
-   public void update () {
-        System.out.println(balance);
-    }
 
 }
